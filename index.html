@@ -12,18 +12,17 @@
       padding: 0;
     }
     .container {
-      max-width: 400px;
+      max-width: 600px; /* Adjust width */
       margin: 20px auto;
       padding: 20px;
       text-align: center;
     }
     .profile {
-      width: 100%; /* Makes the image responsive */
-      max-width: 400px; /* Sets a maximum width for larger screens */
-      height: auto; /* Maintains the aspect ratio */
-      border-radius: 0; /* Removes the circular shape */
-      margin: 0 auto 20px; /* Centers the image and adds spacing */
-      border: 3px solid #FF0000; /* Change border color to red */
+      display: block; /* Ensure it displays as a block element */
+      max-width: 100%; /* Ensures it doesn't exceed the container's width */
+      height: auto; /* Keeps the aspect ratio intact */
+      margin: 0 auto 20px; /* Centers the image and adds space below */
+      border: 3px solid #FF0000; /* Optional: Adds a border */
     }
     h1 {
       font-size: 24px;
